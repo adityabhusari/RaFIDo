@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "764410491702",
+    "project_id": "rafido-8216c",
+    "storage_bucket": "rafido-8216c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764410491702:android:9c2f53817b9ec8c96db997",
+        "android_client_info": {
+          "package_name": "com.example.rapido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764410491702-q17m8hq7r9f1qbq82ck6vc5jmdobcu9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKHEma61l0tB64Ov3NejvgW7ZahioFURs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764410491702-q17m8hq7r9f1qbq82ck6vc5jmdobcu9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

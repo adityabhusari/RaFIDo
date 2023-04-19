@@ -33,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 Text("Welcome to",
                     style: Theme.of(context).textTheme.titleMedium),
-                Text("Rapido",
+                Text("Rafido",
                     style: Theme.of(context).textTheme.displayMedium),
                 const SizedBox(height: 24.0),
                 Card(

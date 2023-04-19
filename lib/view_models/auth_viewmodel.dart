@@ -11,6 +11,7 @@ class LoginViewModel with ChangeNotifier {
   String get password => _password;
 
   bool isLoading = false;
+  String? errorDescription;
 
   void setEmail(String email) {
     _email = email;
@@ -57,7 +58,28 @@ class LoginViewModel with ChangeNotifier {
         throw Exception("User is null");
       }
     } catch (e) {
-      print(e.toString());
+      errorDescription = e.toString();
+      showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            backgroundColor: Theme.of(context).colorScheme.errorContainer,
+            title: Text("Error"),
+            content: Text(errorDescription ?? "Unknown error"),
+            actions: [
+              TextButton(
+                style: TextButton.styleFrom(
+                  foregroundColor: Theme.of(context).colorScheme.error,
+                ),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: Text("OK"),
+              ),
+            ],
+          );
+        },
+      );
     }
     isLoading = false;
     notifyListeners();
@@ -73,7 +95,28 @@ class LoginViewModel with ChangeNotifier {
       }
       Navigator.pushReplacementNamed(context, '/login');
     } catch (e) {
-      print(e.toString());
+      errorDescription = e.toString();
+      showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            backgroundColor: Theme.of(context).colorScheme.errorContainer,
+            title: Text("Error"),
+            content: Text(errorDescription ?? "Unknown error"),
+            actions: [
+              TextButton(
+                style: TextButton.styleFrom(
+                  foregroundColor: Theme.of(context).colorScheme.error,
+                ),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: Text("OK"),
+              ),
+            ],
+          );
+        },
+      );
     }
   }
 
@@ -108,7 +151,28 @@ class LoginViewModel with ChangeNotifier {
         throw Exception("User is null");
       }
     } catch (e) {
-      print(e.toString());
+      errorDescription = e.toString();
+      showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            backgroundColor: Theme.of(context).colorScheme.errorContainer,
+            title: Text("Error"),
+            content: Text(errorDescription ?? "Unknown error"),
+            actions: [
+              TextButton(
+                style: TextButton.styleFrom(
+                  foregroundColor: Theme.of(context).colorScheme.error,
+                ),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: Text("OK"),
+              ),
+            ],
+          );
+        },
+      );
     }
   }
 }

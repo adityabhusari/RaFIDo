@@ -10,6 +10,15 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  Widget loadingOverlay() {
+    return Container(
+      color: Colors.black.withOpacity(0.5),
+      child: Center(
+        child: CircularProgressIndicator(),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final loginVM = Provider.of<LoginViewModel>(context, listen: true);
@@ -62,7 +71,6 @@ class _LoginScreenState extends State<LoginScreen> {
                         child: OutlinedButton(
                           onPressed: () async {
                             Navigator.pushNamed(context, '/register');
-                            // await loginVM.register(context);
                           },
                           child: const Text('Sign Up'),
                         ),
@@ -87,8 +95,11 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
           if (loginVM.isLoading)
-            Center(
-              child: CircularProgressIndicator(),
+            Container(
+              color: Colors.black.withOpacity(0.5),
+              child: Center(
+                child: CircularProgressIndicator(),
+              ),
             ),
         ],
       ),

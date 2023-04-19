@@ -32,7 +32,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       body: Column(
         children: [
           Card(
-            margin: EdgeInsets.all(16.0),
+            margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 8.0),
             child: Container(
               padding: const EdgeInsets.all(16.0),
               child: Column(
@@ -52,8 +52,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
               ),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
+            child: Divider(),
+          ),
           Card(
-            margin: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
+            margin: EdgeInsets.fromLTRB(16.0, 8.0, 16.0, 8.0),
             child: Container(
               padding: const EdgeInsets.all(16.0),
               child: Row(
@@ -71,7 +75,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
           ),
           Card(
-            margin: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
+            margin: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 8.0),
             child: Container(
               padding: const EdgeInsets.all(16.0),
               child: Row(
@@ -89,7 +93,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
           ),
           Card(
-            margin: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
+            margin: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 8.0),
             child: Container(
               padding: const EdgeInsets.all(16.0),
               child: Row(
@@ -107,7 +111,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
           ),
           Card(
-            margin: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
+            margin: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 8.0),
             child: Container(
               padding: const EdgeInsets.all(16.0),
               child: Row(

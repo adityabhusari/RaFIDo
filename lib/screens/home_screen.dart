@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rapido/models/user_model.dart';
+import 'package:rapido/screens/bus_tracking_screen.dart';
 import 'package:rapido/screens/profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -59,6 +60,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   MaterialPageRoute(
                     builder: (context) {
                       return ProfileScreen(user: widget.user);
+                    },
+                  ),
+                );
+              },
+            ),
+            ListTile(
+              title: Text("Find a Bus"),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return BusTrackingScreen();
                     },
                   ),
                 );

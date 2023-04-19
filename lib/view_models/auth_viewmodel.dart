@@ -10,6 +10,8 @@ class LoginViewModel with ChangeNotifier {
   String get username => _email;
   String get password => _password;
 
+  bool isLoading = false;
+
   void setEmail(String email) {
     _email = email;
     notifyListeners();
@@ -21,8 +23,9 @@ class LoginViewModel with ChangeNotifier {
   }
 
   Future<void> login(BuildContext context) async {
+    isLoading = true;
+    notifyListeners();
     final auth = FirebaseManger.auth;
-
     try {
       final userCredentials = await auth.signInWithEmailAndPassword(
         email: _email,
@@ -56,6 +59,8 @@ class LoginViewModel with ChangeNotifier {
     } catch (e) {
       print(e.toString());
     }
+    isLoading = false;
+    notifyListeners();
   }
 
   Future<void> logOut(BuildContext context) async {

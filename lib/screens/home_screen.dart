@@ -30,14 +30,30 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              child: Text(
-                "Rapido",
-                style: Theme.of(context).textTheme.displayMedium,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(
+                    Icons.account_circle,
+                    size: 72,
+                  ),
+                  SizedBox(height: 8),
+                  Text(
+                    widget.user.name ?? "No Name",
+                    style: Theme.of(context).textTheme.titleLarge,
+                  ),
+                  SizedBox(height: 4),
+                  Text(
+                    widget.user.email ?? "No Email",
+                    style: Theme.of(context).textTheme.titleSmall,
+                  )
+                ],
               ),
             ),
             ListTile(
               title: Text("Profile"),
               onTap: () {
+                Navigator.of(context).pop();
                 Navigator.push(
                   context,
                   MaterialPageRoute(

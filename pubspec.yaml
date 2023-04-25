@@ -42,6 +42,7 @@ dependencies:
   flutter_osm_plugin: ^0.53.2
   syncfusion_flutter_maps: ^21.1.41
   csv: ^5.0.1
+  url_launcher: ^6.1.10
 
 dev_dependencies:
   flutter_test:

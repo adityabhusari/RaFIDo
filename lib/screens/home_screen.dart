@@ -76,7 +76,14 @@ class _HomeScreenState extends State<HomeScreen> {
               title: Text("Find a Bus"),
               onTap: () {
                 Navigator.of(context).pop();
-                Navigator.pushNamed(context, "/bus");
+                Navigator.pushNamed(context, "/routes");
+              },
+            ),
+            ListTile(
+              title: Text("Make a Payment"),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.pushNamed(context, "/payment");
               },
             ),
           ],

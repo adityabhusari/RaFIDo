@@ -1,9 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:rapido/screens/bus_list_screen.dart';
 import 'package:rapido/screens/bus_tracking_screen.dart';
 import 'package:rapido/screens/home_screen.dart';
 import 'package:rapido/screens/login_screen.dart';
+import 'package:rapido/screens/payment_screen.dart';
 import 'package:rapido/screens/register_screen.dart';
 import 'package:rapido/theme/color_schemes.dart';
 import 'package:rapido/view_models/auth_viewmodel.dart';
@@ -62,7 +64,9 @@ class _MyAppState extends State<MyApp> {
           '/login': (context) => const LoginScreen(),
           '/register': (context) => const RegistrationScreen(),
           '/home': (context) => const HomeScreen(),
+          '/routes': (context) => const BusListScreen(),
           '/bus': (context) => BusTrackingScreen(),
+          '/payment': (context) => const PaymentScreen(),
         },
         initialRoute: '/login',
       ),

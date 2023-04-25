@@ -5,6 +5,8 @@ import 'package:syncfusion_flutter_maps/maps.dart';
 
 class BusViewModel with ChangeNotifier {
   BuildContext context;
+  bool isLoading = false;
+  String searchQuery = "";
 
   BusViewModel({required this.context}) {
     initialize(context);
@@ -12,7 +14,28 @@ class BusViewModel with ChangeNotifier {
 
   List<BusTrip> trips = [];
 
+  List<BusTrip> get filteredTrips {
+    if (searchQuery.isEmpty) {
+      return trips;
+    } else {
+      return trips
+          .where((e) =>
+              e.headsign.toLowerCase().contains(searchQuery.toLowerCase()) ||
+              e.routeID.toLowerCase().contains(searchQuery.toLowerCase()))
+          .toList();
+    }
+  }
+
+  void setQuery(String query) {
+    searchQuery = query;
+    notifyListeners();
+  }
+
+  BusTrip? selectedBus;
+
   Future<void> initialize(BuildContext context) async {
+    isLoading = true;
+    notifyListeners();
     var shapesCsvString =
         await DefaultAssetBundle.of(context).loadString("assets/shapes.csv");
     final shapesCsv = CsvToListConverter().convert(shapesCsvString, eol: "\n");
@@ -44,7 +67,7 @@ class BusViewModel with ChangeNotifier {
         ));
       }
     }
+    isLoading = false;
     notifyListeners();
-    print(trips);
   }
 }

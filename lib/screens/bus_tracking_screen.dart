@@ -34,7 +34,9 @@ class _BusTrackingScreenState extends State<BusTrackingScreen> {
   @override
   Widget build(BuildContext context) {
     final busVM = Provider.of<BusViewModel>(context, listen: true);
-    final route = [];
+    if (busVM.selectedBus == null) {
+      Navigator.pushReplacementNamed(context, "/routes");
+    }
 
     Widget sfMap() {
       return SfMaps(
@@ -52,7 +54,7 @@ class _BusTrackingScreenState extends State<BusTrackingScreen> {
                   2,
                   (int index) {
                     return MapPolyline(
-                        points: route
+                        points: busVM.selectedBus!.shape
                             .map((e) => MapLatLng(e.latitude, e.longitude))
                             .toList());
                   },
@@ -66,7 +68,7 @@ class _BusTrackingScreenState extends State<BusTrackingScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Bus 42"),
+        title: Text(busVM.selectedBus!.headsign),
         elevation: 2,
       ),
       body: sfMap(),

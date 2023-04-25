@@ -13,6 +13,8 @@ class LoginViewModel with ChangeNotifier {
   bool isLoading = false;
   String? errorDescription;
 
+  UserEntity? currentUser;
+
   void setEmail(String email) {
     _email = email;
     notifyListeners();
@@ -49,10 +51,9 @@ class LoginViewModel with ChangeNotifier {
           while (Navigator.of(context).canPop()) {
             Navigator.of(context).pop();
           }
-          Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => HomeScreen(user: userEntity)));
+          currentUser = userEntity;
+          print("User set");
+          Navigator.pushReplacementNamed(context, '/home');
         }
       } else {
         throw Exception("User is null");
@@ -137,8 +138,8 @@ class LoginViewModel with ChangeNotifier {
         while (Navigator.of(context).canPop()) {
           Navigator.of(context).pop();
         }
-        Navigator.pushReplacement(context,
-            MaterialPageRoute(builder: (context) => HomeScreen(user: user)));
+        currentUser = user;
+        Navigator.pushReplacementNamed(context, '\home');
         final userDocRef = FirebaseManger.firestore
             .collection('users')
             .withConverter(

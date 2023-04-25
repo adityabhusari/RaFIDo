@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:rapido/models/user_model.dart';
 import 'package:rapido/screens/bus_tracking_screen.dart';
 import 'package:rapido/screens/profile_screen.dart';
+import 'package:rapido/view_models/auth_viewmodel.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key, required this.user});
-  final UserEntity user;
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -21,6 +22,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final loginVM = Provider.of<LoginViewModel>(context, listen: true);
+    if (loginVM.currentUser != null) {
+      user = loginVM.currentUser!;
+    } else {
+      Navigator.pushReplacementNamed(context, "/login");
+    }
     return Scaffold(
       appBar: AppBar(
         title: Text("Home"),
@@ -40,12 +47,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   SizedBox(height: 8),
                   Text(
-                    widget.user.name ?? "No Name",
+                    user.name ?? "No Name",
                     style: Theme.of(context).textTheme.titleLarge,
                   ),
                   SizedBox(height: 4),
                   Text(
-                    widget.user.email ?? "No Email",
+                    user.email ?? "No Email",
                     style: Theme.of(context).textTheme.titleSmall,
                   )
                 ],
@@ -59,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return ProfileScreen(user: widget.user);
+                      return ProfileScreen(user: user);
                     },
                   ),
                 );
@@ -69,21 +76,14 @@ class _HomeScreenState extends State<HomeScreen> {
               title: Text("Find a Bus"),
               onTap: () {
                 Navigator.of(context).pop();
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return BusTrackingScreen();
-                    },
-                  ),
-                );
+                Navigator.pushNamed(context, "/bus");
               },
             ),
           ],
         ),
       ),
       body: Center(
-        child: Text(widget.user.name ?? "No Name"),
+        child: Text(user.name ?? "No Name"),
       ),
     );
   }

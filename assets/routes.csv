@@ -1,0 +1,365 @@
+routeId,Id,tripId,tripHeadsign,shapeId
+10,8303,NORMAL_10_Swargate To Keshavnagar_Up-0545_0,Swargate To Keshavnagar,3380
+100_18,1174,NORMAL_100_Ma Na Pa to Hinjawadi Maan Phase 3_Up-1310_0,Ma Na Pa to Hinjawadi Maan Phase 3,4475
+101,20137,NORMAL_101_Kothrud Depot To Kondhwa Kh_Up-0600_0,Kothrud Depot To Kondhwa Kh,4953
+102,20173,NORMAL_102_Kothrud Depot To Lohgaon_Up-0520_0,Kothrud Depot To Lohgaon,3392
+103,11254,NORMAL_103_Kothrud Depot To Katraj_Down-0545_0,Kothrud Depot To Katraj,3479
+103M,8031,NORMAL_103M_Katraj To MIT College_Up-1635_0,Katraj To MIT College,3806
+104,17871,NORMAL_104_Deccan Gymkhana To DSK Vishwa_Up-0530_0,Deccan Gymkhana To DSK Vishwa,3427
+105,13149,NORMAL_105_Balewadi Depot To Deccan Gymkhana_Down-0830_0,Balewadi Depot To Deccan Gymkhana,3433
+106,17221,NORMAL_106_Kothrud Depot To Dhayari Maruti Mandir_Up-0600_0,Kothrud Depot To Dhayari Maruti Mandir,4200
+107,10639,NORMAL_107_Gharkul Vasahat Warje To Pimplegurav_Down-0530_0,Gharkul Vasahat Warje To Pimplegurav,3197
+108,13338,NORMAL_108_Sutardara To Pune Station_Up-0730_0,Sutardara To Pune Station,3486
+109,17893,NORMAL_109_Ma Na Pa To Ma Na Pa_Round-0600_0,Ma Na Pa To Ma Na Pa,3488
+11,1393,NORMAL_11_Pimplegurav To Marketyard_Down-1805_0,Pimplegurav To Marketyard,2924
+110,17959,NORMAL_110_Ma Na Pa To Ma Na Pa_Round-0610_0,Ma Na Pa To Ma Na Pa,3489
+111,11534,NORMAL_111_Bhekrainagar To Ma Na Pa_Up-0535_0,Bhekrainagar To Ma Na Pa,3492
+113,11472,NORMAL_113_Mandai Stand To Vasantdada Putala Sangvi Mandai Stand_Round-0520_0,Mandai Stand To Vasantdada Putala Sangvi Mandai Stand,3252
+114,201,NORMAL_114_Ma Na Pa To Mhalungegaon_Up-0720_0,Ma Na Pa To Mhalungegaon,3500
+115P_90,629,NORMAL_115P_Hinjawadi Phase 3 to Pune Station_Down-1450_0,Hinjawadi Phase 3 to Pune Station,3277
+116,19839,NORMAL_116_Ma Na Pa To Khadki Bazar_Up-0720_0,Ma Na Pa To Khadki Bazar,3501
+117,10591,NORMAL_117_Swargate To Dhayari Maruti Mandir_Up-0535_0,Swargate To Dhayari Maruti Mandir,3503
+117A,16106,NORMAL_117A_Swargate To DSK Vishwa_Up-2045_0,Swargate To DSK Vishwa,3795
+117B,15906,NORMAL_117B_Swargate To Shree Control_Up-1645_0,Swargate To Shree Control,3799
+117C,15309,NORMAL_117C_Swargate To Raykarmala_Up-0920_0,Swargate To Raykarmala,3802
+118,10912,NORMAL_118_Swargate To Venutai Chavan College_Up-0545_0,Swargate To Venutai Chavan College,3506
+118B,5361,NORMAL_118B_Swargate To Vadgaon Bk_Up-0555_0,Swargate To Vadgaon Bk,3793
+119,824,NORMAL_119_Ma Na Pa To Alandi_Up-0710_0,Ma Na Pa To Alandi,3375
+12,10499,NORMAL_12_Upper Depot To Bhakti Shakti_Up-0525_0,Upper Depot To Bhakti Shakti,4834
+120,16288,NORMAL_120_Ma Na Pa To Indoorance System Chakan Mhalunge_Up-0540_0,Ma Na Pa To Indoorance System Chakan Mhalunge,4861
+121,18125,NORMAL_121_Bhosari Terminal To Ma Na Pa_Down-0510_0,Bhosari Terminal To Ma Na Pa,4823
+122,3838,NORMAL_122_Chinchwadgaon To Ma Na Pa_Down-0520_0,Chinchwadgaon To Ma Na Pa,4818
+122B,4724,NORMAL_122B_Chinchwadgaon To Nehrunagar Depo_Down-2200_0,Chinchwadgaon To Nehrunagar Depo,3788
+123,18301,NORMAL_123_Ma Na Pa To Bhakti Shakti_Up-0550_0,Ma Na Pa To Bhakti Shakti,4735
+125,1086,NORMAL_125_Bopkhel To Vasantdada Putala Sangvi_Up-0605_0,Bopkhel To Vasantdada Putala Sangvi,5104
+126,2101,NORMAL_126_Pimplenilakh To Vishrantwadi_Down-0725_0,Pimplenilakh To Vishrantwadi,3540
+126B,2100,NORMAL_126B_Kamalpark To Pimplenilakh_Up-0610_0,Kamalpark To Pimplenilakh,4085
+126C,958,NORMAL_126C_Pimplenilakh To Khadki Bazar_Up-1320_0,Pimplenilakh To Khadki Bazar,5175
+126D,12658,NORMAL_126D_Khadki Bazar To Vishrantwadi_Up-1440_0,Khadki Bazar To Vishrantwadi,4087
+127_86,16933,NORMAL_127_Swargate to Vadgaon Mawal_Up-0645_0,Swargate to Vadgaon Mawal,4552
+128,2405,NORMAL_128_Ma Na Pa To Bopkhel_Up-0555_0,Ma Na Pa To Bopkhel,3541
+129,1517,NORMAL_129_Balewadi Depot To Pune Station_Down-0655_0,Balewadi Depot To Pune Station,2217
+13,7247,NORMAL_13_Upper Depot To Shivajinagar_Up-0530_0,Upper Depot To Shivajinagar,3394
+130,16709,NORMAL_130_Yewalewadi To Shivajinagar_Up-0530_0,Yewalewadi To Shivajinagar,3445
+130A,16715,NORMAL_130A_Yewalewadi To Katraj_Down-1250_0,Yewalewadi To Katraj,3456
+131_12,16921,NORMAL_131_Ma Na Pa to Vadgaon Shinde_Up-0530_0,Ma Na Pa to Vadgaon Shinde,4545
+132,8362,NORMAL_132_Ma Na Pa To Shubham Society Nagar Road_UP-0530_0,Ma Na Pa To Shubham Society Nagar Road,3173
+133,9514,NORMAL_133_Ma Na Pa To Anand Park_Up-0530_0,Ma Na Pa To Anand Park,3200
+135,21581,NORMAL_135_Pune Station To Wadebolhai_Up-0530_0,Pune Station To Wadebolhai,5207
+136,4674,NORMAL_136_Pune Station To Vadegaon_Up-0650_0,Pune Station To Vadegaon,3547
+139,12721,NORMAL_139_Bhakti Shakti To Shewalwadi_Down-0600_0,Bhakti Shakti To Shewalwadi,4853
+13A,9207,NORMAL_13A_Shivajinagar To VIT College_Down-0715_0,Shivajinagar To VIT College,3749
+14,9964,NORMAL_14_Kesnand Phata To Dhayari Maruti Mandir_Down-0550_0,Kesnand Phata To Dhayari Maruti Mandir,3356
+140,2460,NORMAL_140_Upper Depot To Pune Station_Up-0530_0,Upper Depot To Pune Station,3398
+142,3461,NORMAL_142_Pune Station To Ghotawade Phata_Up-0530_0,Pune Station To Ghotawade Phata,3554
+143,4982,NORMAL_143_Galinde Path To Pune Station (Vai Mhatre Pul)_Up-0530_0,Galinde Path To Pune Station (Vai Mhatre Pul),2670
+143A,9062,NORMAL_143A_Galinde Path To Pune Station (Vai Nal Stop)_Up-0615_0,Galinde Path To Pune Station (Vai Nal Stop),3754
+144,10053,NORMAL_144_Kothrud Stand To Pune Station_Up-0530_0,Kothrud Stand To Pune Station,3840
+144D,10149,NORMAL_144D_Kumbare Park To Pune Station_Up-0700_0,Kumbare Park To Pune Station,3862
+145,8411,NORMAL_145_Pune Station To NDA Gol Market_Up-1120_0,Pune Station To NDA Gol Market,3572
+145A,8407,NORMAL_145A_Pune Station To D2 Circle_Up-0530_0,Pune Station To D2 Circle,3750
+146,13199,NORMAL_146_Pune Station To Gokhalenagar_Up-0545_0,Pune Station To Gokhalenagar,3876
+147,15374,NORMAL_147_Pune Station To Nhavi Sandas_Up-0515_0,Pune Station To Nhavi Sandas,5205
+148,13324,NORMAL_148_Shewalwadi To Pimple Gurav_Up-0530_0,Shewalwadi To Pimple Gurav,3878
+148A,8753,NORMAL_148A_Bhekarai Depot To Bhosari Terminal_Up-0545_0,Bhekarai Depot To Bhosari Terminal,3153
+149,3905,NORMAL_149_Shewalwadi To Pimprigaon_Up-0510_0,Shewalwadi To Pimprigaon,4981
+150_73,11934,NORMAL_150_Pune Station Depo To Pimplegurav Via Wakdewadi Khadki Station Buddha Vihar_Up-0830_0,Pune Station Depo To Pimplegurav Via Wakdewadi Khadki Station Buddha Vihar,4553
+151,11932,NORMAL_151_Pune Station To Alandi_Up-0605_0,Pune Station To Alandi,3634
+152_75,2384,NORMAL_152_MNP To Dhanori / KamalPark Via Lohagaon_Up-1035_0,MNP To Dhanori / KamalPark Via Lohagaon,5242
+154,15852,NORMAL_154_Pune Station To Vishrantwadi_Up-0540_0,Pune Station To Vishrantwadi,4604
+155,13501,NORMAL_155_Pune Station To Lohgaon (Via Dhanori)_Up-0520_0,Pune Station To Lohgaon (Via Dhanori),3880
+158,12013,NORMAL_158_Lohgaon To Ma Na Pa_Down-0600_0,Lohgaon To Ma Na Pa,3885
+158A(NEW),12875,NORMAL_158A(NEW)_Ma Na Pa Dengle Pul To Dadachi Padal_Up-0540_0,Ma Na Pa Dengle Pul To Dadachi Padal,3756
+158B,12861,NORMAL_158B_Ma Na Pa To D.Y. Patil Vidhypith Lohgaon_Up-0850_0,Ma Na Pa To D.Y. Patil Vidhypith Lohgaon,3882
+159,6637,NORMAL_159_Ma Na Pa To Talegaon Dhamdhere_UP-0830_0,Ma Na Pa To Talegaon Dhamdhere,5054
+161,10810,NORMAL_161_Warje Malwadi To Vimannagar_Up-0540_0,Warje Malwadi To Vimannagar,2932
+162,1458,NORMAL_162_Pune Station To Kendurgaon_Up-0500_0,Pune Station To Kendurgaon,3967
+163,2862,NORMAL_163_Pune Station To Kharadi Gaon (Dhole Patil College)_Up-0520_0,Pune Station To Kharadi Gaon (Dhole Patil College),5001
+164,10423,NORMAL_164_Swargate To Vimannagar_UP-0545_0,Swargate To Vimannagar,1059
+165,815,NORMAL_165_Ma Na Pa To Wadgaonsheri_Up-0530_0,Ma Na Pa To Wadgaonsheri,3179
+166,12266,NORMAL_166_Pune Station To Viman Nagar_UP-0540_0,Pune Station To Viman Nagar,3191
+167,448,NORMAL_167_Hadapsar Gadital To Kesnand Phata_Up-0545_0,Hadapsar Gadital To Kesnand Phata,4626
+168,13853,NORMAL_168_Ma Na Pa To Keshavnagar_Up-0520_0,Ma Na Pa To Keshavnagar,3590
+169,13965,NORMAL_169_Ma Na Pa To Keshavnagar (Vai Koregaon Park)_Up-0535_0,Ma Na Pa To Keshavnagar (Vai Koregaon Park),4661
+17,9046,NORMAL_17_Narhegaon To Shaniwarwada_Down-0615_0,Narhegaon To Shaniwarwada,2327
+170,18429,NORMAL_170_Pune Station To Kondhwa Bk_Up-0510_0,Pune Station To Kondhwa Bk,3595
+170B,18485,NORMAL_170B_Pune Station To Kondhwa Hospital_Up-0605_0,Pune Station To Kondhwa Hospital,3760
+172_38,15003,NORMAL_172_Hadapsar Gadital To Vadgaon Sheri_Up-0730_0,Hadapsar Gadital To Vadgaon Sheri,4611
+174,3006,NORMAL_174_Pune Station To NDA 10 No Gate Bus Stand_Up-0500_0,Pune Station To NDA 10 No Gate Bus Stand,4891
+174A,3012,NORMAL_174A_Pune Station To NDA Gol Market_Up-1430_0,Pune Station To NDA Gol Market,3762
+175,14251,NORMAL_175_Ma Na Pa To Hadapsar Gadital_Up-0620_0,Ma Na Pa To Hadapsar Gadital,4909
+177,14279,NORMAL_177_Pune Station To Salunke Vihar_Up-0520_0,Pune Station To Salunke Vihar,3664
+179,18658,NORMAL_179_Swargate To Vadachiwadi_Up-0835_0,Swargate To Vadachiwadi,3666
+17A,9045,NORMAL_17A_Natraj Stand To Narhegaon_Up-0530_0,Natraj Stand To Narhegaon,3769
+180,14407,NORMAL_180_Bhekrainagar To Na Ta Wadi_Down-0520_0,Bhekrainagar To Na Ta Wadi,3639
+181,14524,NORMAL_181_Na Ta Wadi To Kondhwa Kh_Up-0520_0,Na Ta Wadi To Kondhwa Kh,3668
+181C,12370,NORMAL_181C_Na Ta Wadi To Kondhwa Bk_Up-0535_0,Na Ta Wadi To Kondhwa Bk,3777
+183,7605,NORMAL_183_Hadapsar Gadital To Kolawadi Via Theur_Up-0525_0,Hadapsar Gadital To Kolawadi Via Theur,5014
+185,5849,NORMAL_185_Hadapsar Gadital To Wagholi Kesnand_Up-0515_0,Hadapsar Gadital To Wagholi Kesnand,4659
+186,188,NORMAL_186_Jspm College To Pune Station_Up-1840_0,Jspm College To Pune Station,3889
+186A,1073,NORMAL_186A_Swargate To Jspm College_Down-1440_0,Swargate To Jspm College,3783
+187,15399,NORMAL_187_Bhekrainagar To Pune Station_Up-0545_0,Bhekrainagar To Pune Station,3640
+188,14653,NORMAL_188_Hadapsar Gadital To Katraj_Up-0600_0,Hadapsar Gadital To Katraj,3643
+189,17254,NORMAL_189_Hadapsar Gadital To Devachi Uruli (Dhangar Vasti)_Up-0600_0,Hadapsar Gadital To Devachi Uruli (Dhangar Vasti),4618
+19,429,NORMAL_19_Kondhwa Hospital To Shivajinagar_Up-1740_0,Kondhwa Hospital To Shivajinagar,3407
+190,14762,NORMAL_190_Hadapsar Gadital To Fursungi_Up-0530_0,Hadapsar Gadital To Fursungi,3896
+191,10278,NORMAL_191_Pune Station To Trinity College_Up-0600_0,Pune Station To Trinity College,3647
+192,4092,NORMAL_192_Hadapsar Gadital To Vadachiwadi_Up-0600_0,Hadapsar Gadital To Vadachiwadi,4678
+193,7288,NORMAL_193_Hadapsar Gadital To Uruli Kanchan_Up-0600_0,Hadapsar Gadital To Uruli Kanchan,3651
+194_03,16513,NORMAL_194_Swargate To Undri Pisoli (Jagdamba Bhavan)_Up-0805_0,Swargate To Undri Pisoli (Jagdamba Bhavan),4531
+195,5697,NORMAL_195_Hadapsar Gadital To Holkarwadi_Up-0600_1,Hadapsar Gadital To Holkarwadi,3653
+196,16619,NORMAL_196_Swargate To Tukaidarshan Kaleborate Nagar_Up-0745_0,Swargate To Tukaidarshan Kaleborate Nagar,5067
+197,15008,NORMAL_197_Hadapsar Gadital To Kothrud Depot_Up-0525_0,Hadapsar Gadital To Kothrud Depot,3655
+198,9486,NORMAL_198_Hadapsar Gadital To Railway Crossing Manjri_Up-0550_0,Hadapsar Gadital To Railway Crossing Manjri,5198
+19A,432,NORMAL_19A_Shivajinagar To Marketyard_Down-2200_0,Shivajinagar To Marketyard,3424
+19D,9251,NORMAL_19D_Shivajinagar To Trinity College_Down-1505_0,Shivajinagar To Trinity College,3440
+2,8047,NORMAL_2_Katraj To Shivajinagar_Up-0520_0,Katraj To Shivajinagar,3442
+20,469,NORMAL_20_Maharashtra Housing Board Samtanagar To Sahakarnagar_Down-0900_0,Maharashtra Housing Board Samtanagar To Sahakarnagar,4600
+200,5742,NORMAL_200_Sadesatranali To Swargate_Up-0810_0,Sadesatranali To Swargate,3898
+200A,5741,NORMAL_200A_Hadapsar Gadital To Sadesatranali_Down-0800_0,Hadapsar Gadital To Sadesatranali,3702
+201,10302,NORMAL_201_Bhekrainagar To Alandi_Up-0510_0,Bhekrainagar To Alandi,3657
+202,15125,NORMAL_202_Hadapsar Gadital To Warje Malwadi_Up-0530_0,Hadapsar Gadital To Warje Malwadi,3901
+203,16973,NORMAL_203_Bhekarai Depot To Pune station_Up-0520_0,Bhekarai Depot To Pune station,4351
+203P,16993,NORMAL_203P_Shewalwadi To Pune station_Up-0715_0,Shewalwadi To Pune station,3703
+204,1752,NORMAL_204_Bhekrainagar To Chinchwad Gaon_Up-1345_0,Bhekrainagar To Chinchwad Gaon,3308
+205,15245,NORMAL_205_Hadapsar Gadital To Vasantdada Putala Sangvi_Up-0530_0,Hadapsar Gadital To Vasantdada Putala Sangvi,3661
+206,17559,NORMAL_206_Hadapsar Gadital To Vishalnagar_Up-0545_0,Hadapsar Gadital To Vishalnagar,3669
+207,17008,NORMAL_207_Saswad To Hadapsar_Down-2120_0,Saswad To Hadapsar,4347
+208,15113,NORMAL_208_Hadapsar Gadital To Hinjawadi Maan Phase 3_Up-0500_0,Hadapsar Gadital To Hinjawadi Maan Phase 3,3940
+209_96,21709,NORMAL_209_Katraj To Saswad Bus Stand_Up-0515_0,Katraj To Saswad Bus Stand,5244
+20B,5747,NORMAL_20B_Swargate To Hadapsar Gadital_Up-1215_0,Swargate To Hadapsar Gadital,3704
+21,1098,NORMAL_21_Swargate To Vasantdada Putala Sangvi_Up-0520_0,Swargate To Vasantdada Putala Sangvi,2616
+213,3682,NORMAL_213_Katraj To Vimananagar_UP-0540_0,Katraj To Vimananagar,1066
+214,1260,NORMAL_214_Katraj To Sinhgad Collage_Up-0715_0,Katraj To Sinhgad Collage,4850
+215,19746,NORMAL_215_Chintamani Dyanpith To Swargate_Down-0520_0,Chintamani Dyanpith To Swargate,4440
+216,10991,NORMAL_216_Bharati Vidyapeeth To Bharati Vidyapeeth_Round-0625_0,Bharati Vidyapeeth To Bharati Vidyapeeth,3517
+216A,11002,NORMAL_216A_Mandai To Katraj_Down-0940_0,Mandai To Katraj,3708
+216B,16404,NORMAL_216B_Bharati Vidyapeeth To Pune Vidhyapeeth_Up-0910_0,Bharati Vidyapeeth To Pune Vidhyapeeth,3710
+216C,11001,NORMAL_216C_Bharati Vidyapeeth To Mandai_Up-0905_0,Bharati Vidyapeeth To Mandai,3712
+217,16815,NORMAL_217_Mandai Stand To Gujarwadi_Down-0615_0,Mandai Stand To Gujarwadi,4311
+21A,11950,NORMAL_21A_Swargate To Ammunition Factory_Up-0700_0,Swargate To Ammunition Factory,3716
+21B,11952,NORMAL_21B_Swargate To HEMRL Company_Up-0805_0,Swargate To HEMRL Company,3720
+22,609,NORMAL_22_Khandoba Mandir To Shivajinagar_Up-0615_0,Khandoba Mandir To Shivajinagar,2580
+227,2775,NORMAL_227_Marketyard To Marnewadi_Up-0510_0,Marketyard To Marnewadi,4882
+22A,608,NORMAL_22A_Swargate To Khandoba Mandir_Up-0545_0,Swargate To Khandoba Mandir,4431
+230,15458,NORMAL_230_Bharati Vidyapeeth To Pune Station_Up-0545_0,Bharati Vidyapeeth To Pune Station,3679
+233,2213,NORMAL_233_ST Stand Paud To Marketyard_Down-0610_0,ST Stand Paud To Marketyard,4877
+234,10809,NORMAL_234_Ma Na Pa To Kharadi Gaon_Up-0530_0,Ma Na Pa To Kharadi Gaon,3185
+235,12960,NORMAL_235_Katraj To Kharadi Gaon_Up-0520_0,Katraj To Kharadi Gaon,1120
+236,4227,NORMAL_236_Ma Na Pa To Khulewadi_UP-0550_0,Ma Na Pa To Khulewadi,3177
+237,12198,NORMAL_237_Warje Malwadi To Kharadi gaon_UP-0520_0,Warje Malwadi To Kharadi gaon,1080
+24,4208,NORMAL_24_Katraj To Maharashtra Housing Board Samtanagar_Up-0520_0,Katraj To Maharashtra Housing Board Samtanagar,4473
+252,12254,NORMAL_252_Ma Na Pa Bhavan To Charholi Gaon_Up-0530_0,Ma Na Pa Bhavan To Charholi Gaon,4705
+253,13788,NORMAL_253_Upper Depot To Vidyanagar_Up-0520_0,Upper Depot To Vidyanagar,3327
+255_49,17753,NORMAL_255_Sutarwadi Bus Stand To Pimplegurav_Up-0600_0,Sutarwadi Bus Stand To Pimplegurav,4218
+256,13016,NORMAL_256_Balewadi Depot To Ma Na Pa_Down-0535_0,Balewadi Depot To Ma Na Pa,3951
+257,8506,NORMAL_257_Alandi To Kesnand Phata via Markal_Down-0630_0,Alandi To Kesnand Phata via Markal,3239
+26,21655,NORMAL_26_Dhankawadi To Shivajinagar_Up-0530_0,Dhankawadi To Shivajinagar,2315
+264,15616,NORMAL_264_Bahulgaon To Ma Na Pa_Down-0715_0,Bahulgaon To Ma Na Pa,3718
+27,21601,NORMAL_27_Bharati Vidyapeeth To Shivajinagar_Up-0550_0,Bharati Vidyapeeth To Shivajinagar,2400
+275_12,17452,NORMAL_275_Kothrud Stand To Chinchwadgaon_Up-0545_0,Kothrud Stand To Chinchwadgaon,4162
+276,7878,NORMAL_276_Warje Malawadi To Chinchwad Gaon Up_Up-0525_0,Warje Malawadi To Chinchwad Gaon Up,3285
+277,2424,NORMAL_277_NDA 10 No Gate Bus Stand To Khadki Bazar_Up-0555_0,NDA 10 No Gate Bus Stand To Khadki Bazar,4895
+277A,2423,NORMAL_277A_Kothrud Stand To Kondhwagate_Down-0525_0,Kothrud Stand To Kondhwagate,4026
+279,15831,NORMAL_279_Khamboli To Deccan Gymkhana_Down-0700_0,Khamboli To Deccan Gymkhana,3992
+279A,15830,NORMAL_279A_Kothrud Depo To Khamboli_Up-0535_0,Kothrud Depo To Khamboli,4089
+28,5646,NORMAL_28_Katraj To Shivajinagar_Up-0550_0,Katraj To Shivajinagar,2630
+281,15643,NORMAL_281_Warje Malwadi To Bhakti Shakti_Up-0530_0,Warje Malwadi To Bhakti Shakti,4746
+282,15684,NORMAL_282_Warje Malwadi To Bhosari Terminal_Up-0555_0,Warje Malwadi To Bhosari Terminal,4748
+283,5632,NORMAL_283_Kumbare Park To Pune Station_Up-0600_1,Kumbare Park To Pune Station,3687
+284,15738,NORMAL_284_Kothrud Depot To Bhakti Shakti_Up-0555_0,Kothrud Depot To Bhakti Shakti,4750
+29,472,NORMAL_29_Swargate To Alandi_Up-0745_0,Swargate To Alandi,3609
+291,1667,NORMAL_291_Katraj To Hadapsar Gadital_Up-2215_0,Katraj To Hadapsar Gadital,4029
+292,13082,NORMAL_292_Swargate To Kondhanpur_Up-0720_0,Swargate To Kondhanpur,4010
+292A,13081,NORMAL_292A_Kalyangaon To Swargate_Down-0550_0,Kalyangaon To Swargate,3733
+292B,13088,NORMAL_292B_Swargate To Rahatwadegaon_Up-1330_0,Swargate To Rahatwadegaon,3734
+292C,13094,NORMAL_292C_Swargate To Avsarwadi_Up-0525_0,Swargate To Avsarwadi,3736
+293,4513,NORMAL_293_Kapurhoal To Swargate_Down-0535_0,Kapurhoal To Swargate,4835
+293A,13090,NORMAL_293A_Swargate To Kusgaon_Up-1630_0,Swargate To Kusgaon,2259
+294,15939,NORMAL_294_Katraj To Khadakwasla To Katraj_Round-0630_0,Katraj To Khadakwasla To Katraj,4082
+295,12405,NORMAL_295_Katraj To Narhegaon_Down-0540_0,Katraj To Narhegaon,5097
+296,18840,NORMAL_296_Jambhulwadi To Shivajinagar_Up-0540_0,Jambhulwadi To Shivajinagar,4036
+296A,18839,NORMAL_296A_Katraj To Jambhulwadi_Up-0520_0,Katraj To Jambhulwadi,3673
+297,15955,NORMAL_297_Rajas Society To Shivajinagar_Up-0540_0,Rajas Society To Shivajinagar,3693
+298,20553,NORMAL_298_Chinchwad Gaon To Katraj_Down-1440_0,Chinchwad Gaon To Katraj,3313
+299,11009,NORMAL_299_Katraj To Bhosarigaon_Up-0600_0,Katraj To Bhosarigaon,4752
+2D,5537,NORMAL_2D_Sachchai Mata Mandir To Katraj_Down-1215_0,Sachchai Mata Mandir To Katraj,3844
+2H,1270,NORMAL_2H_Shivajinagar To Sachchai Mata Mandir_Up-1620_0,Shivajinagar To Sachchai Mata Mandir,3497
+2I,1223,NORMAL_2I_Pune Vidhyapeeth To Katraj_Down-1030_0,Pune Vidhyapeeth To Katraj,3484
+2J,8518,NORMAL_2J_Katraj To Bhilarewadi_Up-0620_0,Katraj To Bhilarewadi,3476
+2L,8081,NORMAL_2L_Katraj To Narhegaon_Down-0610_0,Katraj To Narhegaon,3475
+3,10252,NORMAL_3_Swargate To Pune Station_Up-0600_0,Swargate To Pune Station,2316
+30,9354,NORMAL_30_Marketyard To Ghotawade Phata_Up-0500_0,Marketyard To Ghotawade Phata,2854
+300_58,6416,NORMAL_300_Dhayari To kirkatwadi_Up-0615_0,Dhayari To kirkatwadi,4400
+301,1010,NORMAL_301_Shewalwadi To Katraj_Down-0525_0,Shewalwadi To Katraj,4349
+301A_82,21226,NORMAL_301A_Katraj To Hadapsar Gadital_Up-0600_0,Katraj To Hadapsar Gadital,4939
+302,1524,NORMAL_302_Gavhanevasti Bhosari To Pimprigaon_Down-1155_0,Gavhanevasti Bhosari To Pimprigaon,4039
+302A(New),1530,NORMAL_302A(New)_Alandi To Pimprigaon_Down-1720_0,Alandi To Pimprigaon,4041
+302B,1534,NORMAL_302B_Pimprigaon To Bopkhel_Up-0615_0,Pimprigaon To Bopkhel,4050
+302C,17710,NORMAL_302C_Gavhanevasti Bhosari To Nehrunagar Depo_Down-2015_0,Gavhanevasti Bhosari To Nehrunagar Depo,3681
+302D,18772,NORMAL_302D_Pimprigaon To Nehrunagar Depo_Down-2110_0,Pimprigaon To Nehrunagar Depo,4437
+303,1364,NORMAL_303_Nigdi To Akurdi Railway Station_Up-0945_0,Nigdi To Akurdi Railway Station,4013
+304,998,NORMAL_304_Gavhanevasti Bhosari To Chinchwadgaon_Down-2120_0,Gavhanevasti Bhosari To Chinchwadgaon,4055
+304A,17569,NORMAL_304A_Nehrunagar Depo To Bhosari_Up-0520_0,Nehrunagar Depo To Bhosari,4045
+305,16054,NORMAL_305_Nigdi To Vadgaon Mawal_Up-1610_0,Nigdi To Vadgaon Mawal,4017
+305B,4042,NORMAL_305B_Nigdi To Navlakh Umbre_Up-0550_0,Nigdi To Navlakh Umbre,3893
+306,17021,NORMAL_306_Bhakti Shakti To Hinjawadi Maan Phase 3_Up-0545_0,Bhakti Shakti To Hinjawadi Maan Phase 3,5018
+307,5854,NORMAL_307_Chinchwadgaon To Walhekarwadi_Up-0550_0,Chinchwadgaon To Walhekarwadi,4043
+308,1720,NORMAL_308_Gharkul Vasahat Chikhli To Bhakti Shakti_Down-0930_0,Gharkul Vasahat Chikhli To Bhakti Shakti,3755
+309,13679,NORMAL_309_Alandi To Dehugaon_Up-0545_0,Alandi To Dehugaon,3757
+31,14198,NORMAL_31_Taljai Pathar To Pune Station_Up-0530_0,Taljai Pathar To Pune Station,2310
+310,6553,NORMAL_310_Pune Station To Walhekarwadi_Up-0540_0,Pune Station To Walhekarwadi,4754
+311,6573,NORMAL_311_Pune Station To Pimprigaon_Up-0600_0,Pune Station To Pimprigaon,4859
+312,17591,NORMAL_312_Pune Station To Chinchwadgaon_Up-0450_0,Pune Station To Chinchwadgaon,4758
+313,973,NORMAL_313_Pimpri Depot To Chinchwadgaon_Up-0510_0,Pimpri Depot To Chinchwadgaon,4328
+313A,3777,NORMAL_313A_Chinchwadgaon To Kasarsai Karkhana_Up-1740_0,Chinchwadgaon To Kasarsai Karkhana,4066
+314,10557,NORMAL_314_Bhakti Shakti To Mhalunge Gaon / Dwarka City Phata (Y Junction)_Up-0535_0,Bhakti Shakti To Mhalunge Gaon / Dwarka City Phata (Y Junction),4623
+315,20753,NORMAL_315_Bhosari To Pune station via vishrantwadi_Down-0530_0,Bhosari To Pune station via vishrantwadi,4070
+316,16413,NORMAL_316_Chinchwadgaon To Hinjawadi Maan Phase 3_Up-0845_0,Chinchwadgaon To Hinjawadi Maan Phase 3,3792
+317,5263,NORMAL_317_Sambhajinagar To Pune Station_Down-0535_0,Sambhajinagar To Pune Station,4761
+318,20792,NORMAL_318_Krishna nagar To Pune Station_Down-0600_0,Krishna nagar To Pune Station,3281
+319,16424,NORMAL_319_Alandi To Vadgaon Mawal_Up-0645_0,Alandi To Vadgaon Mawal,3796
+320,2831,NORMAL_320_Mahalungegaon To Alandi_Down-0600_0,Mahalungegaon To Alandi,4765
+322,7301,NORMAL_322_Akurdi Railway Station To Ma Na Pa River Side_Down-0535_0,Akurdi Railway Station To Ma Na Pa River Side,5134
+323,16070,NORMAL_323_Ma Na Pa To Chikhali_Up-1535_0,Ma Na Pa To Chikhali,4766
+323B,20812,NORMAL_323B_Nehrunagar Depo To Chikhali_Up-0535_0,Nehrunagar Depo To Chikhali,3963
+324,12988,NORMAL_324_Bhosari To Hinjawadi Maan Phase 3_Up-0540_0,Bhosari To Hinjawadi Maan Phase 3,3659
+325,16548,NORMAL_325_Pune Station To Masulkar Colony_Up-0750_0,Pune Station To Masulkar Colony,4770
+326,8951,NORMAL_326_Pimprigaon To Chikhali_Up-0530_0,Pimprigaon To Chikhali,3973
+326A,8970,NORMAL_326A_Chikhali To Nehrunagar Depo_Down-2100_0,Chikhali To Nehrunagar Depo,3972
+327,4074,NORMAL_327_Hinjawadi Maan Phase 3 To Alandi_Down-0605_0,Hinjawadi Maan Phase 3 To Alandi,4911
+327A,16412,NORMAL_327A_Nehrunagar Depo To Hinjawadi Maan Phase 3_Up-0820_0,Nehrunagar Depo To Hinjawadi Maan Phase 3,3984
+327C,18829,NORMAL_327C_Nehrunagar Depo To Alandi_Up-0545_0,Nehrunagar Depo To Alandi,3978
+328_29,5581,NORMAL_328_Nigdi To Rupeenagar_Up-1430_0,Nigdi To Rupeenagar,4433
+329,7672,NORMAL_329_Nigdi To Dehugaon Via Dehuroad_Up-0520_0,Nigdi To Dehugaon Via Dehuroad,5176
+33,9410,NORMAL_33_Taljai Pathar To Na Ta Wadi_Up-0620_0,Taljai Pathar To Na Ta Wadi,2275
+330_52,5964,NORMAL_330_Akurdi Railway Station To Chikhali_Up-0540_0,Akurdi Railway Station To Chikhali,4878
+331,9118,NORMAL_331_Bhosari To Rahatnigaon_Up-0715_0,Bhosari To Rahatnigaon,3851
+331C,16586,NORMAL_331C_Nehrunagar Depo To Rahatnigaon_Up-0620_0,Nehrunagar Depo To Rahatnigaon,3855
+331D,16572,NORMAL_331D_Charholigaon To Nehrunagar Depo_Up-0620_0,Charholigaon To Nehrunagar Depo,3853
+332,16846,NORMAL_332_Pimpri To Pune Station_Down-0555_0,Pimpri To Pune Station,2779
+333,638,NORMAL_333_Hinjawadi Maan Phase 3 To Pune Station_Down-1515_0,Hinjawadi Maan Phase 3 To Pune Station,4429
+334,6011,NORMAL_334_Gharkul Vasahat Chikhali To Pimprigaon_Down-0630_0,Gharkul Vasahat Chikhali To Pimprigaon,3827
+335,1557,NORMAL_335_Jambe To Nehrunagar Depot_Down-2115_0,Jambe To Nehrunagar Depot,3869
+335A,1555,NORMAL_335A_Jambe To Dange Chowk_Down-1820_0,Jambe To Dange Chowk,3867
+336,7113,NORMAL_336_Pimpri Depot To Bhakti Shakti_Up-0515_0,Pimpri Depot To Bhakti Shakti,5057
+337,3334,NORMAL_337_Bhakti Shakti To Dhayari Maruti Mandir_Down-0500_0,Bhakti Shakti To Dhayari Maruti Mandir,5000
+338,1000,NORMAL_338_Sawtamali Mandir Chikhli To Ma Na Pa Main Bus Stand_Down-2115_0,Sawtamali Mandir Chikhli To Ma Na Pa Main Bus Stand,4928
+339,16896,NORMAL_339_Santnagar MIDC Police Station To Katraj_Down-0545_0,Santnagar MIDC Police Station To Katraj,4781
+340_83,5220,NORMAL_340_Nigdi To Alandi_Up-0530_0,Nigdi To Alandi,5238
+341,9929,NORMAL_341_Mohannagar to Ma Na Pa_Down-0715_0,Mohannagar to Ma Na Pa,3307
+342_85,19847,NORMAL_342_Pimpri Depot To Dange Chowk Vai Telco Road_Up-0730_0,Pimpri Depot To Dange Chowk Vai Telco Road,4272
+343_86,11969,NORMAL_343_Vadgaon Mawal To Chakan Ambethan Chowk_Up-0615_0,Vadgaon Mawal To Chakan Ambethan Chowk,4153
+344,16629,NORMAL_344_Alandi To Pimple Nilakh_Up-0610_0,Alandi To Pimple Nilakh,3903
+345,9945,NORMAL_345_Nigdi To Thergaon_Down-0530_0,Nigdi To Thergaon,4283
+346_89,17218,NORMAL_346_Bhosari To Wagholi_Down-0805_0,Bhosari To Wagholi,4415
+347,16654,NORMAL_347_Dapodi To Alandi_Down-0600_0,Dapodi To Alandi,3995
+348,16092,NORMAL_348_Nigdi To Pune Station_Down-1420_0,Nigdi To Pune Station,4785
+350,17669,NORMAL_350_Nigdi To Dehugaon Via Talwade_Up-0530_0,Nigdi To Dehugaon Via Talwade,5171
+350B,20833,NORMAL_350B_Bhakti Shakti To Pimprigaon_Down-0635_0,Bhakti Shakti To Pimprigaon,3686
+351,1442,NORMAL_351_Jambe To Alandi_Down-1600_0,Jambe To Alandi,4916
+354,9315,NORMAL_354_Pimprigaon To Marketyard_Down-0530_0,Pimprigaon To Marketyard,3998
+355,20813,NORMAL_355_Chikhali To Dange Chowk_Down-0605_0,Chikhali To Dange Chowk,4902
+357,21417,NORMAL_357_Bhosari Terminal To Pune Station_Down-0455_0,Bhosari Terminal To Pune Station,5151
+358,1642,NORMAL_358_Bhosari To Rajgurunagar_Up-0440_0,Bhosari To Rajgurunagar,3817
+359_24,4950,NORMAL_359_Bhosari PMT Chowk To Nirgudigaon Via Charholi Phata_Down-0545_0,Bhosari PMT Chowk To Nirgudigaon Via Charholi Phata,5193
+360,19689,NORMAL_360_Mhalungegaon To Alandi Via Balewadi_Down-0550_0,Mhalungegaon To Alandi Via Balewadi,5114
+361,8505,NORMAL_361_Bhosari Terminal To Alandi_Down-0600_0,Bhosari Terminal To Alandi,3911
+362,1002,NORMAL_362_YCM Hospital To Alandi_Down-0620_0,YCM Hospital To Alandi,4003
+362A,954,NORMAL_362A_Alandi To YCM Hospital (Via Moshi)_Down-0700_0,Alandi To YCM Hospital (Via Moshi),4006
+363,7535,NORMAL_363_Nigdi To Adarshnagar_Up-0605_0,Nigdi To Adarshnagar,3958
+363A,6389,NORMAL_363A_Kiwalegaon To Nigdi_Down-0950_0,Kiwalegaon To Nigdi,3957
+365_51,8265,NORMAL_365_Hinjawadi Maan Phase 3 To Vadgaon Mawal_Up-0635_0,Hinjawadi Maan Phase 3 To Vadgaon Mawal,4448
+366,3,NORMAL_366_Pune Station To Bhakti Shakti (Via Yerwada)_Up-1750_0,Pune Station To Bhakti Shakti (Via Yerwada),4794
+367,197,NORMAL_367_Nigdi To Gavhanevasti Bhosari_Up-1515_0,Nigdi To Gavhanevasti Bhosari,3921
+367C,264,NORMAL_367C_Akurdi Railway Station To Bhosari_Down-1720_0,Akurdi Railway Station To Bhosari,4460
+368_54,984,NORMAL_368_Nigdi To Kamshet_Up-0510_0,Nigdi To Kamshet,4934
+369_55,16791,NORMAL_369_Bhakti Shakti To Bhamchandra Vidhyalay Vasuli_Up-0610_0,Bhakti Shakti To Bhamchandra Vidhyalay Vasuli,4222
+36_47,20625,NORMAL_36_Ma Na Pa To Chinchwadgaon_Up-0530_0,Ma Na Pa To Chinchwadgaon,3306
+37,6293,NORMAL_37_Na Ta Wadi To Sahkarnagar_Down-0610_0,Na Ta Wadi To Sahkarnagar,2930
+371_78,15971,NORMAL_371_Nigdi To Pimprigaon_Down-0545_0,Nigdi To Pimprigaon,4450
+372,17027,NORMAL_372_Hinjawadi Maan Phase 3 To Bhakti Shakti_Down-1145_0,Hinjawadi Maan Phase 3 To Bhakti Shakti,4904
+374_81,1469,NORMAL_374_Nigdi To Sai Nagar_Up-1510_0,Nigdi To Sai Nagar,4293
+376,6852,NORMAL_376_Bhakti Shakti To Katraj (Vai YCM)_Down-0610_0,Bhakti Shakti To Katraj (Vai YCM),4802
+377_84,14567,NORMAL_377_Gharkul Vasahat To YCM Hospital_Down-0600_0,Gharkul Vasahat To YCM Hospital,4462
+378_85,17698,NORMAL_378_Pimpri Depot To Vasantdada Putla Sangvi_Up-0515_0,Pimpri Depot To Vasantdada Putla Sangvi,4250
+379_86,4975,NORMAL_379_Pimprigaon To Hinjawadi Maan Phase 3_Up-0600_0,Pimprigaon To Hinjawadi Maan Phase 3,4957
+38,11996,NORMAL_38_Dhankawadi To Na Ta Wadi_Up-0550_0,Dhankawadi To Na Ta Wadi,3533
+380_09,2233,NORMAL_380_Bhosari Terminal To Hinjawadi Maan Phase 3_Up-0545_0,Bhosari Terminal To Hinjawadi Maan Phase 3,4955
+39,17817,NORMAL_39_Dhankawadi To Pune Station_Up-0600_0,Dhankawadi To Pune Station,3528
+401_30,6425,NORMAL_401_Venkateshwara To Swargate_Down-1205_0,Venkateshwara To Swargate,4507
+41,17865,NORMAL_41_Upper Depot To Sangvi_Up-0705_0,Upper Depot To Sangvi,2843
+42,63,NORMAL_42_Bhakti Shakti To Katraj_Down-1520_0,Bhakti Shakti To Katraj,4811
+43,251,NORMAL_43_Bhakti Shakti To Katraj_Down-0730_0,Bhakti Shakti To Katraj,4900
+46,10322,NORMAL_46_Swargate To Lohgaon Via Dhanori_Up-0520_0,Swargate To Lohgaon Via Dhanori,4098
+47,11041,NORMAL_47_Sanaswadi Nandoshi To Shaniwarwada_Down-0650_0,Sanaswadi Nandoshi To Shaniwarwada,2466
+47A,1425,NORMAL_47A_Vadgaon Bk To Shaniwarwada Stand_Down-2340_0,Vadgaon Bk To Shaniwarwada Stand,2646
+49,8382,NORMAL_49_Khanapur To Pune Station_Down-0600_0,Khanapur To Pune Station,3561
+5,8388,NORMAL_5_Swargate To Pune Station_Up-1430_1,Swargate To Pune Station,3388
+50,3078,NORMAL_50_Sinhagad To Shaniwarwada_Down-0610_0,Sinhagad To Shaniwarwada,3564
+501_01,6449,NORMAL_501_Kothrud Depo To Kanned School (Manglwar peth)_Up-0630_0,Kothrud Depo To Kanned School (Manglwar peth),4469
+50B,3077,NORMAL_50B_Natraj Stand To Sinhgad Paytha_Up-0500_0,Natraj Stand To Sinhgad Paytha,2450
+51,7619,NORMAL_51_Shivajinagar To Dhayari Maruti Mandi_Up-0500_0,Shivajinagar To Dhayari Maruti Mandi,3565
+52,17109,NORMAL_52_Swargate To Khanapur_Up-0740_0,Swargate To Khanapur,3567
+52A,17108,NORMAL_52A_Osade Phata To Swargate_Down-0615_0,Osade Phata To Swargate,3238
+52B,17120,NORMAL_52B_Khanapur To Marketyard_Down-0615_0,Khanapur To Marketyard,2806
+53,7165,NORMAL_53_Mandai Stand To DSK Vishwa_Up-0530_0,Mandai Stand To DSK Vishwa,4196
+55,207,NORMAL_55_Suncity To Mandai_Up-1305_0,Suncity To Mandai,4206
+56,5362,NORMAL_56_Vadgaon Bk To Mandai_Up-0625_0,Vadgaon Bk To Mandai,4207
+57,990,NORMAL_57_Vadgaon Bk To Pune Station_Down-2050_0,Vadgaon Bk To Pune Station,4339
+57A,4499,NORMAL_57A_Pune Station To Suncity_Up-0605_0,Pune Station To Suncity,2477
+58,1062,NORMAL_58_Shanipar To Gokhalenagar_Up-0540_0,Shanipar To Gokhalenagar,3581
+59,6181,NORMAL_59_Shanipar To Niljyoti_Up-0550_0,Shanipar To Niljyoti,3583
+60,187,NORMAL_60_Ghulenagar To Mandai Stand_Down-1000_0,Ghulenagar To Mandai Stand,4195
+601_71,6461,NORMAL_601_Tukai Nagar To Viddya Niketan (Dhayari)_Up-0630_0,Tukai Nagar To Viddya Niketan (Dhayari),4487
+61,9922,NORMAL_61_Nasrapur To Swargate_Down-0630_0,Nasrapur To Swargate,2357
+63,3665,NORMAL_63_Swargate To Kalyaninagar_Up-0515_0,Swargate To Kalyaninagar,4701
+64,16863,NORMAL_64_Hadapsar Gadital To Warje Malwadi_Up-0520_0,Hadapsar Gadital To Warje Malwadi,5166
+66,5550,NORMAL_66_Marketyard To Agalambe (Thakarwadi)_Up-0500_0,Marketyard To Agalambe (Thakarwadi),4868
+67,10334,NORMAL_67_Swargate To Kharadi_UP-0525_0,Swargate To Kharadi,3187
+68S,19476,NORMAL_68S_Upper Depot To Sutardara_Down-0740_0,Upper Depot To Sutardara,2770
+69,6364,NORMAL_69_Ghotawadegaon To Marketyard_Down-0630_0,Ghotawadegaon To Marketyard,2838
+70,1047,NORMAL_70_Deccan Gymkhana To Sheregaon_Up-0835_0,Deccan Gymkhana To Sheregaon,3601
+70C,1052,NORMAL_70C_Sheregaon To Kothrud Depot_Down-2010_0,Sheregaon To Kothrud Depot,3611
+71,4525,NORMAL_71_Kothrud Depot To Sukhsagarnagar_Up-0530_0,Kothrud Depot To Sukhsagarnagar,4973
+76,1001,NORMAL_76_Swargate To Kumbare Park_Down-1900_0,Swargate To Kumbare Park,5121
+77,10857,NORMAL_77_Warje Malwadi To Warje Malwadi_Round-0700_0,Warje Malwadi To Warje Malwadi,3617
+78,14469,NORMAL_78_Marketyard To NDA 10 No Gate Bus Stand_Up-0540_0,Marketyard To NDA 10 No Gate Bus Stand,4888
+78A,14487,NORMAL_78A_Marketyard To Warje Malwadi_Up-1155_0,Marketyard To Warje Malwadi,2585
+7A,19484,NORMAL_7A_Hadapsar Gadital To Uruli Kanchan_Up-0520_0,Hadapsar Gadital To Uruli Kanchan,4370
+8,14447,NORMAL_8_Hadapsar Gadital To Mhatobachi Alandi_Up-0640_0,Hadapsar Gadital To Mhatobachi Alandi,4367
+80,14123,NORMAL_80_Cipla Center To Ma Na Pa_Down-0840_0,Cipla Center To Ma Na Pa,4136
+801_13,6482,NORMAL_801_GhokulNagar To Viddya Niketan (ChandraBhaga Nagar)_Up-0640_0,GhokulNagar To Viddya Niketan (ChandraBhaga Nagar),4407
+81,11924,NORMAL_81_Kumbare Park To Pune Station_Up-0630_0,Kumbare Park To Pune Station,3626
+82,896,NORMAL_82_NDA 10 No Gate Bus Stand To MaNaPa To Kondhwagate_Round-0620_0,NDA 10 No Gate Bus Stand To MaNaPa To Kondhwagate,4908
+84,9470,NORMAL_84_Sangrun To Deccan Gymkhana_Down-0635_0,Sangrun To Deccan Gymkhana,2868
+84B,9469,NORMAL_84B_Kothrud Stand To Sangrun_Up-0520_0,Kothrud Stand To Sangrun,2378
+85,16197,NORMAL_85_Mohakarwadi To Ma Na Pa_Down-0705_0,Mohakarwadi To Ma Na Pa,3631
+85A,16175,NORMAL_85A_Khothrud Stand To Mohakarwadi_Up-0615_0,Khothrud Stand To Mohakarwadi,3212
+87,200,NORMAL_87_Sutarwadi Pashan To Deccan Gymkhana (Vai Bhagvatinagar)_Down-0815_0,Sutarwadi Pashan To Deccan Gymkhana (Vai Bhagvatinagar),3450
+87C,206,NORMAL_87C_HMR Company To Deccan Gymkhana_Down-1710_0,HMR Company To Deccan Gymkhana,3006
+87D,228,NORMAL_87D_Deccan Gymkhana To Sutarwadi Pashan (Vai Sai Chowk)_Up-0655_0,Deccan Gymkhana To Sutarwadi Pashan (Vai Sai Chowk),3139
+87F,292,NORMAL_87F_Mhalunge Phata Balewadi To Deccan Gymkhana_Down-1445_0,Mhalunge Phata Balewadi To Deccan Gymkhana,4698
+88,4654,NORMAL_88_Swargate To Hinjawadi Maan Phase 3_Up-0515_0,Swargate To Hinjawadi Maan Phase 3,4986
+89,11090,NORMAL_89_Swargate To Niljyoti_Up-0550_0,Swargate To Niljyoti,3459
+9,19528,NORMAL_9_Hadapsar Gadital To Uruli Railway Station_Up-1735_0,Hadapsar Gadital To Uruli Railway Station,2769
+90,11130,NORMAL_90_Swargate To Gokhalenagar_Up-0530_0,Swargate To Gokhalenagar,3464
+901_83,6486,NORMAL_901_Kondhwa (Sheetal Petrol Pump) To Pune Station Urdu Vidyaniketan shala 12_Up-0630_0,Kondhwa (Sheetal Petrol Pump) To Pune Station Urdu Vidyaniketan shala 12,4687
+91,10901,NORMAL_91_Ishannagari To Ma Na Pa Congress Bhavan_Down-0850_0,Ishannagari To Ma Na Pa Congress Bhavan,4280
+93,16873,NORMAL_93_Kothrud Depot To Deccan Gymkhana_Down-0435_0,Kothrud Depot To Deccan Gymkhana,3470
+94,831,NORMAL_94_Kothrud Depot To Pune Station_Up-1230_0,Kothrud Depot To Pune Station,3632
+97,7661,NORMAL_97_Warje Malwadi To Sahkarnagar_Up-0840_0,Warje Malwadi To Sahkarnagar,3473
+AC2_45,7877,NORMAL_AC2_Nigdi To Hadapsar Gadital_Down-2010_0,Nigdi To Hadapsar Gadital,4384
+HA_48,5077,NORMAL_HA_Pune Station To Pune Airport_Down-0630_0,Pune Station To Pune Airport,5029
+RATRANI1,21335,NORMAL_RATRANI1_Katraj To Shivajinagar Night Service_Up-2240_0,Katraj To Shivajinagar Night Service,4557
+RATRANI2,21358,NORMAL_RATRANI2_Katraj To Pune Station_Up-2300_0,Katraj To Pune Station,4561
+RATRANI3,19908,NORMAL_RATRANI3_Hadapsar Gadital To Swargate_Down-2100_0,Hadapsar Gadital To Swargate,4568
+RATRANI4,19928,NORMAL_RATRANI4_Hadapsar Gadital To Pune station_Up-2120_0,Hadapsar Gadital To Pune station,4565
+RATRANI7,17098,NORMAL_RATRANI7_Pune station To Kondhwa gate_Up-2140_0,Pune station To Kondhwa gate,4665
+RATRANI9,17013,NORMAL_RATRANI9_Pune station To Kesnand phata_Up-2315_0,Pune station To Kesnand phata,4573
+VJR1,17497,NORMAL_VJR1_Dhayari Maruti Mandir To Hadapsar Gadital_Down-0555_0,Dhayari Maruti Mandir To Hadapsar Gadital,4365
+VJR2_49,8432,NORMAL_VJR2_Warje Malwadi To Kesnand Phata_Up-0445_0,Warje Malwadi To Kesnand Phata,3357
+VJR3,919,NORMAL_VJR3_Hadapsar Gadital To Kothrud Depot_Down-0530_0,Hadapsar Gadital To Kothrud Depot,3430
+VJR4,1257,NORMAL_VJR4_Kothrud Depot To Vishrantwadi_Up-1020_0,Kothrud Depot To Vishrantwadi,3302
+VJR5,9714,NORMAL_VJR5_Ma Na Pa To Mukai Chowk_Up-0610_0,Ma Na Pa To Mukai Chowk,3290
+VJR6,11763,NORMAL_VJR6_Bhosari To Hinjawadi Maan Phase 3_Up-0530_0,Bhosari To Hinjawadi Maan Phase 3,3641

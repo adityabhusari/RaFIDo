@@ -1,10 +1,13 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:rapido/screens/bus_tracking_screen.dart';
+import 'package:rapido/screens/home_screen.dart';
 import 'package:rapido/screens/login_screen.dart';
 import 'package:rapido/screens/register_screen.dart';
 import 'package:rapido/theme/color_schemes.dart';
 import 'package:rapido/view_models/auth_viewmodel.dart';
+import 'package:rapido/view_models/bus_viewmodel.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -28,6 +31,9 @@ class _MyAppState extends State<MyApp> {
       providers: [
         ChangeNotifierProvider<LoginViewModel>(
           create: (_) => LoginViewModel(),
+        ),
+        ChangeNotifierProvider<BusViewModel>(
+          create: (_) => BusViewModel(context: context),
         ),
       ],
       child: MaterialApp(
@@ -55,18 +61,11 @@ class _MyAppState extends State<MyApp> {
           '/': (context) => const Text("Root"),
           '/login': (context) => const LoginScreen(),
           '/register': (context) => const RegistrationScreen(),
+          '/home': (context) => const HomeScreen(),
+          '/bus': (context) => BusTrackingScreen(),
         },
         initialRoute: '/login',
       ),
     );
-  }
-}
-
-class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return LoginScreen();
   }
 }

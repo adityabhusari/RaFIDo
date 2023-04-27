@@ -6,8 +6,8 @@ class PaymentScreen extends StatelessWidget {
 
   void makePayments() async {
     Map<String, String> queryArguments = {
-      "pa": "crpatil1901@oksbi",
-      "pn": "Chinmay Patil",
+      "pa": "bankar.aditi@okhdfcbank",
+      "pn": "Aditi Bankar",
       "tn": "Bus Fare",
       "am": "5",
       "cu": "INR",

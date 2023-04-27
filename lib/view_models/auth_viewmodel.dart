@@ -47,12 +47,10 @@ class LoginViewModel with ChangeNotifier {
         if (userEntity == null) {
           throw Exception("User data not found");
         } else {
-          print(userEntity.toFirestore());
           while (Navigator.of(context).canPop()) {
             Navigator.of(context).pop();
           }
           currentUser = userEntity;
-          print("User set");
           Navigator.pushReplacementNamed(context, '/home');
         }
       } else {
@@ -123,10 +121,6 @@ class LoginViewModel with ChangeNotifier {
 
   Future<void> register(BuildContext context, UserEntity user) async {
     final auth = FirebaseManger.auth;
-
-    // Print user
-    print(user.toFirestore());
-    print(_email);
 
     try {
       final userCredentials = await auth.createUserWithEmailAndPassword(

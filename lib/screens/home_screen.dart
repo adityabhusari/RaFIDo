@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Icon(
                     Icons.account_circle,
-                    size: 72,
+                    size: 64,
                   ),
                   SizedBox(height: 8),
                   Text(
@@ -84,6 +84,13 @@ class _HomeScreenState extends State<HomeScreen> {
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.pushNamed(context, "/payment");
+              },
+            ),
+             ListTile(
+              title: Text("Travel History"),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.pushNamed(context, "/history");
               },
             ),
           ],

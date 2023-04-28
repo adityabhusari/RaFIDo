@@ -10,6 +10,7 @@ import 'package:rapido/screens/register_screen.dart';
 import 'package:rapido/theme/color_schemes.dart';
 import 'package:rapido/view_models/auth_viewmodel.dart';
 import 'package:rapido/view_models/bus_viewmodel.dart';
+import 'package:rapido/view_models/payments_viewmodel.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -66,7 +67,7 @@ class _MyAppState extends State<MyApp> {
           '/home': (context) => const HomeScreen(),
           '/routes': (context) => const BusListScreen(),
           '/bus': (context) => BusTrackingScreen(),
-          '/payment': (context) => const PaymentScreen(),
+          '/payment': (context) => const PaymentScreenParent(),
         },
         initialRoute: '/login',
       ),

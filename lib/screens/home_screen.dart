@@ -1,7 +1,7 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rapido/models/user_model.dart';
-import 'package:rapido/screens/bus_tracking_screen.dart';
 import 'package:rapido/screens/profile_screen.dart';
 import 'package:rapido/view_models/auth_viewmodel.dart';
 
@@ -89,8 +89,72 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
       ),
-      body: Center(
-        child: Text(user.name ?? "No Name"),
+      body: CarouselSlider(
+        items: [
+          Container(
+            margin: const EdgeInsets.all(6.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: NetworkImage(
+                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
+                ),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(6.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: NetworkImage(
+                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
+                ),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(6.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: NetworkImage(
+                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
+                ),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(6.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: NetworkImage(
+                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
+                ),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+        ],
+        options: CarouselOptions(
+          height: MediaQuery.of(context).size.height,
+          aspectRatio: 16 / 9,
+          viewportFraction: 0.8,
+          initialPage: 0,
+          enableInfiniteScroll: true,
+          reverse: false,
+          autoPlay: true,
+          autoPlayInterval: Duration(seconds: 3),
+          autoPlayAnimationDuration: Duration(milliseconds: 800),
+          autoPlayCurve: Curves.fastOutSlowIn,
+          enlargeCenterPage: true,
+          enlargeFactor: 0.3,
+          scrollDirection: Axis.horizontal,
+        ),
       ),
     );
   }

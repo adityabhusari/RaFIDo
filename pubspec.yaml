@@ -43,6 +43,7 @@ dependencies:
   syncfusion_flutter_maps: ^21.1.41
   csv: ^5.0.1
   url_launcher: ^6.1.10
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:

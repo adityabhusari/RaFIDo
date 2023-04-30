@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
           '/routes': (context) => const BusListScreen(),
           '/bus': (context) => BusTrackingScreen(),
           '/payment': (context) => const PaymentScreenParent(),
-          '/history':(context)=>const History()
+          '/history': (context) => const HistoryScreen(),
         },
         initialRoute: '/login',
       ),

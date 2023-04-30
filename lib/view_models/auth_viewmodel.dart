@@ -133,7 +133,7 @@ class LoginViewModel with ChangeNotifier {
           Navigator.of(context).pop();
         }
         currentUser = user;
-        Navigator.pushReplacementNamed(context, '\home');
+        Navigator.pushReplacementNamed(context, '/home');
         final userDocRef = FirebaseManger.firestore
             .collection('users')
             .withConverter(

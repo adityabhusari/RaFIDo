@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class History extends StatefulWidget {
-  const History({super.key});
+class HistoryScreen extends StatefulWidget {
+  const HistoryScreen({super.key});
 
   @override
-  State<History> createState() => _HistoryState();
+  State<HistoryScreen> createState() => _HistoryScreenState();
 }
 
-class _HistoryState extends State<History> {
+class _HistoryScreenState extends State<HistoryScreen> {
   @override
   List<String> busID = ['32', '298', '216'];
   List<String> departure = ['Katraj', 'Shivajinagar', 'Sahakarnagar'];

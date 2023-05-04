@@ -1,12 +1,17 @@
 import 'package:csv/csv.dart';
 import 'package:flutter/material.dart';
 import 'package:rapido/models/bus_trip_model.dart';
+import 'package:rapido/services/firebase_manager.dart';
 import 'package:syncfusion_flutter_maps/maps.dart';
+import 'package:rapido/models/gps_locations.dart';
+import 'package:rapido/services/firebase_manager.dart';
 
 class BusViewModel with ChangeNotifier {
   BuildContext context;
   bool isLoading = false;
   String searchQuery = "";
+
+  MapLatLng? currentLoc;
 
   BusViewModel({required this.context}) {
     initialize(context);
@@ -36,6 +41,18 @@ class BusViewModel with ChangeNotifier {
   Future<void> initialize(BuildContext context) async {
     isLoading = true;
     notifyListeners();
+    final locRef = FirebaseManager.firestore
+        .collection('gps_location')
+        .doc('J3O10jyFB8qLkhnVhsQ2');
+    locRef.snapshots().listen((event) async {
+      print("Called");
+      final data = await FirebaseManager.firestore
+          .collection('gps_location')
+          .doc('J3O10jyFB8qLkhnVhsQ2')
+          .get();
+      currentLoc = MapLatLng(data['latitude'], data['longitude']);
+      notifyListeners();
+    });
     var shapesCsvString =
         await DefaultAssetBundle.of(context).loadString("assets/shapes.csv");
     final shapesCsv = CsvToListConverter().convert(shapesCsvString, eol: "\n");

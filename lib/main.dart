@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rapido/screens/bus_list_screen.dart';
 import 'package:rapido/screens/bus_tracking_screen.dart';
+import 'package:rapido/screens/history_screen.dart';
 import 'package:rapido/screens/home_screen.dart';
 import 'package:rapido/screens/login_screen.dart';
 import 'package:rapido/screens/payment_screen.dart';
@@ -68,6 +69,7 @@ class _MyAppState extends State<MyApp> {
           '/routes': (context) => const BusListScreen(),
           '/bus': (context) => BusTrackingScreen(),
           '/payment': (context) => const PaymentScreenParent(),
+          '/history': (context) => const HistoryScreen(),
         },
         initialRoute: '/login',
       ),

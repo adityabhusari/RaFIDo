@@ -1,7 +1,7 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rapido/models/user_model.dart';
-import 'package:rapido/screens/bus_tracking_screen.dart';
 import 'package:rapido/screens/profile_screen.dart';
 import 'package:rapido/view_models/auth_viewmodel.dart';
 
@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Icon(
                     Icons.account_circle,
-                    size: 72,
+                    size: 64,
                   ),
                   SizedBox(height: 8),
                   Text(
@@ -86,11 +86,76 @@ class _HomeScreenState extends State<HomeScreen> {
                 Navigator.pushNamed(context, "/payment");
               },
             ),
+             ListTile(
+              title: Text("Travel History"),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.pushNamed(context, "/history");
+              },
+            ),
           ],
         ),
       ),
-      body: Center(
-        child: Text(user.name ?? "No Name"),
+      body: CarouselSlider(
+        items: [
+          Container(
+            margin: const EdgeInsets.all(1.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image:AssetImage('assets/light_1.png'),
+                fit: BoxFit.cover,
+                
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(1.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: AssetImage('assets/HELP.jpg'),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(1.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: AssetImage('assets/system.png'),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(1.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: AssetImage('assets/TRAVELS.jpg'),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+        ],
+        options: CarouselOptions(
+          height: MediaQuery.of(context).size.height,
+          
+          aspectRatio: 16 / 9,
+          viewportFraction: 1,
+          initialPage: 0,
+          enableInfiniteScroll: true,
+          reverse: false,
+          autoPlay: true,
+          autoPlayInterval: Duration(seconds: 3),
+          autoPlayAnimationDuration: Duration(milliseconds: 800),
+          autoPlayCurve: Curves.fastOutSlowIn,
+          enlargeCenterPage: true,
+          enlargeFactor: 0.3,
+          scrollDirection: Axis.horizontal,
+        ),
       ),
     );
   }

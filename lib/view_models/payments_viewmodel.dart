@@ -6,7 +6,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 class PaymentsViewModel with ChangeNotifier {
   UserEntity user;
-  final db = FirebaseManger.firestore;
+  final db = FirebaseManager.firestore;
   late DocumentReference userDocRef;
 
   PaymentsViewModel(this.user) {
@@ -22,7 +22,7 @@ class PaymentsViewModel with ChangeNotifier {
     "pa": "bankar.aditi@okhdfcbank",
     "pn": "Aditi Bankar",
     "tn": "Bus Fare",
-    "am": "0",
+    "am": "1000",
     "cu": "INR",
   };
 

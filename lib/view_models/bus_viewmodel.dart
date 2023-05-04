@@ -12,6 +12,8 @@ class BusViewModel with ChangeNotifier {
   String searchQuery = "";
 
   MapLatLng? currentLoc;
+  final MapZoomPanBehavior mapZoomPanBehavior = MapZoomPanBehavior();
+  final MapTileLayerController controller = MapTileLayerController();
 
   BusViewModel({required this.context}) {
     initialize(context);
@@ -45,12 +47,12 @@ class BusViewModel with ChangeNotifier {
         .collection('gps_location')
         .doc('J3O10jyFB8qLkhnVhsQ2');
     locRef.snapshots().listen((event) async {
-      print("Called");
       final data = await FirebaseManager.firestore
           .collection('gps_location')
           .doc('J3O10jyFB8qLkhnVhsQ2')
           .get();
       currentLoc = MapLatLng(data['latitude'], data['longitude']);
+      controller.updateMarkers([0]);
       notifyListeners();
     });
     var shapesCsvString =

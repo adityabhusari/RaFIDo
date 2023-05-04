@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.6.4)
-  - cloud_firestore (4.5.1):
+  - cloud_firestore (4.5.3):
     - Firebase/Firestore (= 10.7.0)
     - firebase_core
     - Flutter
@@ -17,7 +17,7 @@ PODS:
     - Firebase/Auth (= 10.7.0)
     - firebase_core
     - Flutter
-  - firebase_core (2.9.0):
+  - firebase_core (2.10.0):
     - Firebase/CoreOnly (= 10.7.0)
     - Flutter
   - FirebaseAuth (10.7.0):
@@ -124,10 +124,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
-  cloud_firestore: 996fbe17886e254538f5bc51c1606ee9fb524997
+  cloud_firestore: 13b9ec4f7e44d1ccd361a18f4275ed6d26d03ef2
   Firebase: 0219acf760880eeec8ce479895bd7767466d9f81
   firebase_auth: 5a84572b7f5315a3aff5b07c62bb0cd5a28cade5
-  firebase_core: d85432877e814811e040e7659f9c82faeab66e04
+  firebase_core: 18d44f087248303a4a8f05d0099a000c46e3c77a
   FirebaseAuth: dd64c01631df724b09f33e584625775c52f7d71f
   FirebaseCore: e317665b9d744727a97e623edbbed009320afdd7
   FirebaseCoreInternal: fa2899eb1f340054858d289e5a0fb935a0a74e52

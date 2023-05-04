@@ -6,7 +6,6 @@ import 'package:syncfusion_flutter_maps/maps.dart';
 import 'package:provider/provider.dart';
 import 'package:rapido/models/gps_locations.dart';
 
-
 class BusTrackingScreen extends StatefulWidget {
   BusTrackingScreen({super.key});
 
@@ -15,19 +14,6 @@ class BusTrackingScreen extends StatefulWidget {
 }
 
 class _BusTrackingScreenState extends State<BusTrackingScreen> {
-
-  late MapZoomPanBehavior _mapZoomPanBehavior;
-  late MapTileLayerController _controller;
-  late MapShapeLayerController controller;
-
-  @override
-  void initState() {
-    super.initState();
-    _mapZoomPanBehavior = MapZoomPanBehavior();
-    _controller = MapTileLayerController();
-    controller = MapShapeLayerController();
-  }
-
   @override
   Widget build(BuildContext context) {
     final busVM = Provider.of<BusViewModel>(context, listen: true);
@@ -40,11 +26,10 @@ class _BusTrackingScreenState extends State<BusTrackingScreen> {
         layers: [
           MapTileLayer(
             urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-            zoomPanBehavior: _mapZoomPanBehavior,
+            zoomPanBehavior: busVM.mapZoomPanBehavior,
             initialFocalLatLng: MapLatLng(18.457269, 73.850937),
             initialZoomLevel: 15,
             initialMarkersCount: 1,
-            controller: _controller,
             markerBuilder: (BuildContext context, int index) {
               print(
                 "Marker at: ${busVM.currentLoc?.latitude ?? 0.0}, ${busVM.currentLoc?.longitude ?? 0.0}",
@@ -53,13 +38,14 @@ class _BusTrackingScreenState extends State<BusTrackingScreen> {
                 latitude: busVM.currentLoc?.latitude ?? 0.0,
                 longitude: busVM.currentLoc?.longitude ?? 0.0,
                 iconColor: Colors.blue,
-                child: Icon(Icons.location_pin),
-                
+                child: Icon(
+                  Icons.location_pin,
+                  color: Colors.red,
+                  size: 48,
+                ),
               );
-              
             },
-          
-            
+            controller: busVM.controller,
             sublayers: [
               MapPolylineLayer(
                 color: Colors.blue,

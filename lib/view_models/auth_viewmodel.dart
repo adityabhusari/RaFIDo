@@ -28,7 +28,7 @@ class LoginViewModel with ChangeNotifier {
   Future<void> login(BuildContext context) async {
     isLoading = true;
     notifyListeners();
-    final auth = FirebaseManger.auth;
+    final auth = FirebaseManager.auth;
     try {
       final userCredentials = await auth.signInWithEmailAndPassword(
         email: _email,
@@ -36,11 +36,13 @@ class LoginViewModel with ChangeNotifier {
       );
       if (userCredentials.user != null) {
         String uid = userCredentials.user!.uid;
-        final ref =
-            FirebaseManger.firestore.collection('users').doc(uid).withConverter(
-                  fromFirestore: UserEntity.fromFirestore,
-                  toFirestore: (UserEntity user, _) => user.toFirestore(),
-                );
+        final ref = FirebaseManager.firestore
+            .collection('users')
+            .doc(uid)
+            .withConverter(
+              fromFirestore: UserEntity.fromFirestore,
+              toFirestore: (UserEntity user, _) => user.toFirestore(),
+            );
         final userDocSnap = await ref.get();
         final userEntity = userDocSnap.data();
 
@@ -85,7 +87,7 @@ class LoginViewModel with ChangeNotifier {
   }
 
   Future<void> logOut(BuildContext context) async {
-    final auth = FirebaseManger.auth;
+    final auth = FirebaseManager.auth;
 
     try {
       await auth.signOut();
@@ -120,7 +122,7 @@ class LoginViewModel with ChangeNotifier {
   }
 
   Future<void> register(BuildContext context, UserEntity user) async {
-    final auth = FirebaseManger.auth;
+    final auth = FirebaseManager.auth;
 
     try {
       final userCredentials = await auth.createUserWithEmailAndPassword(
@@ -134,7 +136,7 @@ class LoginViewModel with ChangeNotifier {
         }
         currentUser = user;
         Navigator.pushReplacementNamed(context, '/home');
-        final userDocRef = FirebaseManger.firestore
+        final userDocRef = FirebaseManager.firestore
             .collection('users')
             .withConverter(
               fromFirestore: UserEntity.fromFirestore,

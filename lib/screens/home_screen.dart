@@ -99,49 +99,42 @@ class _HomeScreenState extends State<HomeScreen> {
       body: CarouselSlider(
         items: [
           Container(
-            margin: const EdgeInsets.all(6.0),
+            margin: const EdgeInsets.all(1.0),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8.0),
               image: DecorationImage(
-                image: NetworkImage(
-                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
-                ),
+                image:AssetImage('assets/light_1.png'),
+                fit: BoxFit.cover,
+                
+              ),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(1.0),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8.0),
+              image: DecorationImage(
+                image: AssetImage('assets/HELP.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
           ),
           Container(
-            margin: const EdgeInsets.all(6.0),
+            margin: const EdgeInsets.all(1.0),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8.0),
               image: DecorationImage(
-                image: NetworkImage(
-                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
-                ),
+                image: AssetImage('assets/system.png'),
                 fit: BoxFit.cover,
               ),
             ),
           ),
           Container(
-            margin: const EdgeInsets.all(6.0),
+            margin: const EdgeInsets.all(1.0),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8.0),
               image: DecorationImage(
-                image: NetworkImage(
-                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
-                ),
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
-          Container(
-            margin: const EdgeInsets.all(6.0),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8.0),
-              image: DecorationImage(
-                image: NetworkImage(
-                  "https://images.pexels.com/photos/9420620/pexels-photo-9420620.jpeg",
-                ),
+                image: AssetImage('assets/TRAVELS.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -149,8 +142,9 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
         options: CarouselOptions(
           height: MediaQuery.of(context).size.height,
+          
           aspectRatio: 16 / 9,
-          viewportFraction: 0.8,
+          viewportFraction: 1,
           initialPage: 0,
           enableInfiniteScroll: true,
           reverse: false,

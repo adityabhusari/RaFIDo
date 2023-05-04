@@ -6,7 +6,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 class PaymentsViewModel with ChangeNotifier {
   UserEntity user;
-  final db = FirebaseManger.firestore;
+  final db = FirebaseManager.firestore;
   late DocumentReference userDocRef;
 
   PaymentsViewModel(this.user) {

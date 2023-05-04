@@ -15,12 +15,6 @@ class _BusTrackingScreenState extends State<BusTrackingScreen> {
   MapController controller = MapController.publicTransportationLayer(
     initMapWithUserPosition: false,
     initPosition: GeoPoint(latitude: 18.457269, longitude: 73.850937),
-    // areaLimit: BoundingBox(
-    //   east: 10.4922941,
-    //   north: 47.8084648,
-    //   south: 45.817995,
-    //   west: 5.9559113,
-    // ),
   );
 
   late MapZoomPanBehavior _mapZoomPanBehavior;

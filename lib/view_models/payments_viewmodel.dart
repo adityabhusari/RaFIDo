@@ -19,8 +19,8 @@ class PaymentsViewModel with ChangeNotifier {
   }
 
   Map<String, String> queryArguments = {
-    "pa": "bankar.aditi@okhdfcbank",
-    "pn": "Aditi Bankar",
+    "pa": "aduspandu@okicici",
+    "pn": "Aditya Bhusari",
     "tn": "Bus Fare",
     "am": "1000",
     "cu": "INR",

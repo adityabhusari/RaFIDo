@@ -1,16 +1,44 @@
-# rapido
+# RaFIDo: RFID-based Bus Ticketing and Tracking Application
 
-A new Flutter project.
+**RaFIDo** is a Flutter-based project aimed at creating an efficient bus ticketing and tracking system using RFID technology. The project integrates multiple platforms (Android, iOS, Linux, etc.) for enhanced accessibility.
 
-## Getting Started
+## Features
+- **RFID Ticketing**: Seamless and contactless bus ticketing using RFID cards.
+- **Real-time Tracking**: Track bus locations in real-time.
+- **Cross-platform**: Supports Android, iOS, Linux, and more.
 
-This project is a starting point for a Flutter application.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/adityabhusari/RaFIDo.git
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. Navigate to the project directory:
+   ```bash
+     cd RaFIDo
+   ```
+   
+3. Install dependencies:
+   ```bash
+    flutter pub get
+   ```
+   
+4. Run the application:
+   ```bash
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Folder Structure
+- **/lib**: Main source code for the Flutter app.
+- **/assets**: Contains images and other resources.
+- **/android, /ios, etc.**: Platform-specific configuration.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+- Flutter SDK
+- Dart
+- Jupyter for data processing
+
+## Contributors
+- Aditya Bhusari
+- Chinmay Rajesh Patil
+- Aditistars26
